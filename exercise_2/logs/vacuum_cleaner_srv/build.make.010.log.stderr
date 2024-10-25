@@ -1,0 +1,32 @@
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:[m[K In function ‘[01m[Kvoid requestInfo(ros::ServiceClient&, int)[m[K’:
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kvacuum_cleaner_srv::service1::Request[m[K’ {aka ‘[01m[Kstruct vacuum_cleaner_srv::service1Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstation_id[m[K’
+   13 |     srv.request.[01;31m[Kstation_id[m[K = station_id;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:1[m[K:
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:16:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 10 has type ‘[01m[Kvacuum_cleaner_srv::message1_<std::allocator<void> >::_roomName_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   16 |         ROS_INFO([01;35m[K"Station %d received response! \n Room ID: %d \n Room name: %s \n Battery status: %f"[m[K, station_id, srv.response.info_robot.ID, srv.response.info_robot.roomName, srv.response.info_robot.batteryStatus);
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:16:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   16 |         [01;36m[KROS_INFO[m[K("Station %d received response! \n Room ID: %d \n Room name: %s \n Battery status: %f", station_id, srv.response.info_robot.ID, srv.response.info_robot.roomName, srv.response.info_robot.batteryStatus);
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:16:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   16 |         ROS_INFO("Station %d received response! \n Room ID: %d \n Room name: [01;36m[K%s[m[K \n Battery status: %f", station_id, srv.response.info_robot.ID, srv.response.info_robot.roomName, srv.response.info_robot.batteryStatus);
+      |                                                                              [01;36m[K~^[m[K
+      |                                                                               [01;36m[K|[m[K
+      |                                                                               [01;36m[Kchar*[m[K
+make[2]: *** [CMakeFiles/charging_station.dir/build.make:63: CMakeFiles/charging_station.dir/src/charging_station.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/charging_station.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

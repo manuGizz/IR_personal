@@ -1,0 +1,1 @@
+/home/manuel/ROS_ws/exercise_2/devel/.private/vacuum_cleaner_srv/share/common-lisp/ros/vacuum_cleaner_srv/srv/vacuum_cleaner_srv-srv.asd

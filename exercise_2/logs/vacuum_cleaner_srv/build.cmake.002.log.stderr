@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/manuel/ROS_ws/exercise_2/build/vacuum_cleaner_srv/cmake/vacuum_cleaner_srv-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/srv/service1.srv'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [message] in package [vacuum_cleaner_srv] with paths
+  [['/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:69 (generate_messages)
+
+

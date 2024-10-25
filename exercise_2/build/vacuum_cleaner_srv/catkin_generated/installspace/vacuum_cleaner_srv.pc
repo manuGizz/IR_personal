@@ -1,0 +1,8 @@
+prefix=/home/manuel/ROS_ws/exercise_2/install
+
+Name: vacuum_cleaner_srv
+Description: Description of vacuum_cleaner_srv
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

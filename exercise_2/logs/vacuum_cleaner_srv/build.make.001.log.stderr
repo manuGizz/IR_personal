@@ -1,0 +1,15 @@
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kintro_tutorial/srv1.h: No such file or directory
+    2 | #include [01;31m[K"intro_tutorial/srv1.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/charging_station.dir/build.make:63: CMakeFiles/charging_station.dir/src/charging_station.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/charging_station.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/robot.cpp:[m[K In function ‘[01m[Kbool robotInfo(vacuum_cleaner_srv::service1::Request&, vacuum_cleaner_srv::service1::Response&)[m[K’:
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/robot.cpp:35:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   35 |     response.info_robot.roomName = "IAS Lab"
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+make[2]: *** [CMakeFiles/robot.dir/build.make:63: CMakeFiles/robot.dir/src/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/robot.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

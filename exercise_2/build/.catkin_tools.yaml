@@ -1,0 +1,6 @@
+devel_space: /home/manuel/ROS_ws/exercise_2/devel
+install: false
+install_space: /home/manuel/ROS_ws/exercise_2/install
+profile: default
+source_space: /home/manuel/ROS_ws/exercise_2/src
+workspace: /home/manuel/ROS_ws/exercise_2

@@ -1,0 +1,1 @@
+/home/manuel/ROS_ws/exercise_2/devel/.private/catkin_tools_prebuild/setup.sh

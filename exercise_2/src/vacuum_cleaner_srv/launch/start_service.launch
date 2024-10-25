@@ -1,0 +1,17 @@
+<launch>
+    <!-- Node 1: robot -->
+    <!--node name="robot" pkg="vacuum_cleaner_srv" type="robot" output="screen" /-->
+
+    <!-- Node 2: charging station 1 -->
+    <node name="charging_station_1" pkg="vacuum_cleaner_srv" type="charging_station" output="screen" args="1" />
+
+    <!-- Node 3: charging station 2 -->
+    <node name="charging_station_2" pkg="vacuum_cleaner_srv" type="charging_station" output="screen" args="2" />
+
+    <!-- Node 4: charging station 3 -->
+    <node name="charging_station_3" pkg="vacuum_cleaner_srv" type="charging_station" output="screen" args="3" />
+
+    <!-- Node 5: charging station 4 -->
+    <node name="charging_station_4" pkg="vacuum_cleaner_srv" type="charging_station" output="screen" args="4" />
+    
+</launch>

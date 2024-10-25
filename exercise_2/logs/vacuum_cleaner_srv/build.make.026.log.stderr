@@ -1,0 +1,7 @@
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/charging_station.cpp:30:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K5.0e-1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-Wnarrowing[m[K]
+   30 |     int request_periods[4] = {0.5, 2, 3, 4[01;31m[K}[m[K;
+      |                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/charging_station.dir/build.make:63: CMakeFiles/charging_station.dir/src/charging_station.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/charging_station.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
