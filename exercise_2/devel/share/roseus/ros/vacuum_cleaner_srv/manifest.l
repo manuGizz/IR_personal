@@ -1,1 +1,0 @@
-/home/manuel/ROS_ws/exercise_2/devel/.private/vacuum_cleaner_srv/share/roseus/ros/vacuum_cleaner_srv/manifest.l

@@ -1,8 +1,0 @@
-[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/manuel/ROS_ws/exercise_2/src/vacuum_cleaner_srv/src/robot.cpp:49:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
-   49 |     std::cout<<"Ciao"
-      |                      [01;31m[K^[m[K
-      |                      [32m[K;[m[K
-make[2]: *** [CMakeFiles/robot.dir/build.make:63: CMakeFiles/robot.dir/src/robot.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/robot.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

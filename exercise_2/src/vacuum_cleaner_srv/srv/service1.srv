@@ -1,5 +1,0 @@
-std_msgs/Header header
-int32 ID_station
----
-std_msgs/Header header
-message1 info_robot

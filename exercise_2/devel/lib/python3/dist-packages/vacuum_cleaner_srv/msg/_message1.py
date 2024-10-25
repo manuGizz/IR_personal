@@ -1,1 +1,0 @@
-/home/manuel/ROS_ws/exercise_2/devel/.private/vacuum_cleaner_srv/lib/python3/dist-packages/vacuum_cleaner_srv/msg/_message1.py
